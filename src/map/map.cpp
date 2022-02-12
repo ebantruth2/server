@@ -84,7 +84,7 @@ const char* MAP_CONF_FILENAME = nullptr;
 int8* g_PBuff   = nullptr; // Global packet clipboard
 int8* PTempBuff = nullptr; // Temporary packet clipboard
 
-thread_local Sql_t* SqlHandle = nullptr;
+Sql_t* SqlHandle = nullptr;
 
 int32  map_fd          = 0; // main socket
 uint32 map_amntplayers = 0; // map amnt unique players
