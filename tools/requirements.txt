@@ -1,5 +1,0 @@
-mysql-connector-python
-gitpython
-pyyaml
-colorama
-zmq
